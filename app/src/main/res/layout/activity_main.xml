@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="Chettinad Palace" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/chettinadpalace"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:text="Enthralled by my last post on the mansions of Chettinad? Well  – it is now time to get blown by the exquisite Kanadukathan Palace of Chettinad. This one is a blog exclusive for it is not every day that you get special permission to this Maharaja’s palace of Chettinad. In fact, it took me a lot of phone calls and networking to get inside this stunning mansion. And boy – it was worth every bit of that!
+                There is no missing the Kanadukathan palace in Karaikudi – at least from the outside. It is the landmark of this small village. Quite like the other Chettinad homes, the owners have long moved away. However, unlike its neighbors, it is still in good shape. Well maintained and massive, this eye-catching abode is bound to tempt you into exploring its interiors. While permissions might be hard to come by, you will always have this blog post as your virtual tour of the Kanadukathan Palace in Karaikudi." />
+        </ScrollView>
+</LinearLayout>
